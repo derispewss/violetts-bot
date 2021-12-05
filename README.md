@@ -1,4 +1,4 @@
-# Violetsbot
+# Violetsbot ( original by bochilgaming & nurutomo )
 
 <a href="https://github.com/BochilGaming/games-wabot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/BochilGaming/games-wabot?label=Forks&color=blue&style=flat-square"></a>
 <a href="https://github.com/BochilGaming/games-wabot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/BochilGaming/games-wabot?label=Watchers&color=green&style=flat-square"></a>
@@ -28,7 +28,7 @@
 ```bash
 pkg update && pkg upgrade
 pkg install bash && pkg install wget
-wget -O - https://raw.githubusercontent.com/BochilGaming/games-wabot/main/install2.sh | bash
+wget -O - https://raw.githubusercontent.com/derispewss/violetts-bot/main/install2.sh | bash
 ```
 
 ---------
@@ -62,8 +62,8 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 ubuntu
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 apt install -y nodejs gcc g++ make
-git clone https://github.com/BochilGaming/games-wabot
-cd games-wabot
+git clone https://github.com/derispewss/violetts-bot
+cd violetts-bot
 npm install
 npm update
 ```
